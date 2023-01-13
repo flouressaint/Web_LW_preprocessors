@@ -1,0 +1,20 @@
+extends template
+
+block variables
+    - var title ='CSS шрифт'
+    - var style ='CSS_font.css'
+
+block article
+    section
+        .container
+            img(src="img/css-text-decoration.png")
+            img(src="img/css-probely.png")
+            img(src="img/css-text.png")
+        p
+            .code font
+            .text - универсальное свойство, которое позволяет одновременно задать несколько характеристик шрифта и текста.<br> Синтаксис<br>
+            .code font: [font-style||font-variant||font-weight] font-size [/line-height] font-family | inherit
+        p
+            .code font-style
+            .text - определяет начертание шрифта: обычное, курсивное или наклонное. Когда для текста установлено курсивное или наклонное начертание, браузер обращается к системе для поиска подходящего шрифта. Если заданный шрифт не найден, браузер использует специальный алгоритм для имитации нужного вида текста. Результат и качество при этом могут получиться неудовлетворительными, особенно при печати документа.<br> Синтаксис<br>
+            .code font-style: normal | italic | oblique | inherit

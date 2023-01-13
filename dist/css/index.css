@@ -1,0 +1,38 @@
+article section {
+  margin: 0px 0px 20px 0px;
+}
+article section .head {
+  display: block;
+  margin: 0px 0px 10px 0px;
+}
+article section .p_with_img {
+  display: flex;
+  flex-direction: row;
+}
+article section .p_with_img img {
+  margin: auto 10px;
+}
+article .video {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+article .video video {
+  margin: auto 10px;
+}
+@media (max-width: 600px) {
+  .p_with_img {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .p_with_img p {
+    order: 2;
+  }
+  .p_with_img img {
+    order: 1;
+  }
+  video {
+    width: 100%;
+  }
+}

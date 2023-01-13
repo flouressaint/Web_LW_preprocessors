@@ -1,0 +1,29 @@
+article
+  section
+    margin 0px 0px 20px 0px
+    .head
+      display block
+      margin 0px 0px 10px 0px
+    .p_with_img
+      display flex
+      flex-direction row
+      img
+        margin auto 10px
+  .video
+    display flex
+    justify-content center
+    flex-wrap wrap
+    video
+      margin auto 10px
+
+@media (max-width 600px)
+  .p_with_img
+    flex-direction column
+    flex-wrap wrap
+    justify-content center
+    p
+      order 2
+    img
+      order 1
+  video
+    width 100%

@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  align-items: stretch;
+}
+.container img {
+  width: 33%;
+  padding: 5px;
+}
+.code {
+  display: inline;
+  font-family: courier new;
+  line-height: 1.5;
+}
+.text {
+  display: inline;
+}
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .container img {
+    margin: auto;
+    width: 60%;
+  }
+}
