@@ -1,7 +1,6 @@
-# css landing using ppug and stylus
+## css landing using pug and stylus
 
-## gulp-dev
-
+gulp-dev
 Install:
 
 1. Clone or download repository
